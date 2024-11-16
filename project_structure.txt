@@ -1,0 +1,23 @@
+mojo_agent/
+├── src/
+│   ├── __init__.mojo
+│   ├── main.mojo
+│   ├── agent/
+│   │   ├── __init__.mojo
+│   │   ├── generator.mojo
+│   │   ├── debugger.mojo
+│   │   └── optimizer.mojo
+│   └── utils/
+│       ├── __init__.mojo
+│       ├── logger.mojo
+│       └── config.mojo
+├── tests/
+│   ├── __init__.mojo
+│   ├── test_generator.mojo
+│   ├── test_debugger.mojo
+│   └── test_optimizer.mojo
+├── docs/
+│   └── README.md
+├── .gitignore
+├── requirements.txt
+└── README.md
